@@ -151,4 +151,4 @@ async def delete_group():
         }
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000, host='localhost')
+    app.run(host='0.0.0.0')
